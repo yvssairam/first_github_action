@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: getting started action step
         id: hello
-        uses: actions/getting-docker-action@v2
+        uses: actions/first_github_action/getting-docker-action@v2
         with:
           who-to-greet: 'jaffa the hero'
       # Use the output from the `hello` step
